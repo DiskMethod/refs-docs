@@ -17,7 +17,9 @@ function App() {
 
   return (
     <>
-      <FancyButton ref={ref}>Click me!</FancyButton>
+      <FancyButton ref={ref} type="fancy">
+        Click me!
+      </FancyButton>
     </>
   );
 }
